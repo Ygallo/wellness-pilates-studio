@@ -8,5 +8,28 @@
 
 body {
     font-family: open sans, sans-serif;
-    color: blueviolet;
+    color: #3F5E81;
+}
+
+/*headings and logo*/
+
+h1, h2 {
+    font-family: noto serif display, sans-serif;
+    letter-spacing: 3px;
+}
+
+#logo {
+    float: left;
+    font-size: 230%;
+    color:#915E61;
+}
+
+/* hero image*/
+
+#hero-image {
+    height: 400px;
+    width: 100%;
+    background: url('../images/hero-image-re.jpg') no-repeat;
+    background-size: contain;
+
 }
