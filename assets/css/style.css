@@ -13,6 +13,14 @@ body {
 
 /*headings and logo*/
 
+header {
+    position: fixed;
+    top:0;
+    background-color: white;
+    width: 100%;
+    height: 70px;
+}
+
 h1, h2 {
     font-family: noto serif display, sans-serif;
     letter-spacing: 3px;
@@ -22,15 +30,21 @@ h1, h2 {
     float: left;
     font-size: 230%;
     color:#915E61;
+    margin: 5px 0 0 20px;
 }
 
 /* hero image*/
 
 #hero-image {
-    height: 400px;
+    height: 600px;
     width: 100%;
-    background: url('../images/hero-image-re.jpg') no-repeat;
-    background-size: contain;
+    background: url('../images/hero-image.jpg') no-repeat;
+    background-size: cover;
+}
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
 }
 
 /*navigation*/
@@ -39,6 +53,7 @@ h1, h2 {
     font-size: 110%;
     letter-spacing: 3px;
     float: right;
+    margin-top:25px;
 }
 
 #menu li {
@@ -59,5 +74,4 @@ h1, h2 {
 #menu a:hover {
     color:#915E61;
     font-weight: bold;
-   
 }
