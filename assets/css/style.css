@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    border: none;
+}
+
 body {
-    font-family: Arial;
+    font-family: open sans, sans-serif;
     color: blueviolet;
 }
