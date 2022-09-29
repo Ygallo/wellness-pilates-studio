@@ -87,29 +87,36 @@ h1, h2 {
 
 footer{
     background-color: #915E61;
-    height: 100px;
+    min-height: 180px;
+    margin:0;
 }
 .address {
-float:left;
+float: right;
 color:#F9F8F8;
 font-size: 15px;
 display: inline-block;
-padding: 10px;
+padding: 20px;
 }
 
 .times {
-float: center;
+float: right;
 color:#F9F8F8;
-display: inline-block;
-padding: 10px;
+padding: 20px;
 }
 .social {
     color:#F9F8F8;
-    float:right;
-    display: block;
+    float: right;
+    width: 100%;
+    text-align: right;
+    padding: 0 40px 0 0;
 }
 
 .social li {
     list-style-type: none;
     display: inline;
+    padding: 0 10px;
+}
+
+.social li a {
+    color:#F9F8F8;
 }
