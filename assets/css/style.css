@@ -83,6 +83,44 @@ h1, h2 {
     font-weight: bold;
 }
 
+/*Studio Main*/
+#studio-main {
+    height: 600px;
+}
+
+#what-left {
+    padding-top: 20px;
+    width:50%;
+    float: left;
+    background-color: antiquewhite;
+    min-height: 200px;
+}
+
+#why-right {
+    padding-top: 20px;
+    width:50%;
+    float: right;
+    background-color: aquamarine;
+    min-height: 200px;
+
+}
+
+#classes-left {
+    padding-top: 20px;
+    width:50%;
+    float: left;
+    background-color: burlywood;
+    min-height: 200px;
+}
+
+.studio-photo {
+    padding-top: 20px;
+    width:50%;
+    float: left;
+    background-color: red;
+    min-height: 200px;
+}
+
 /*footer*/
 
 footer{
@@ -93,13 +131,14 @@ footer{
 .address {
 float: right;
 color:#F9F8F8;
-font-size: 15px;
+font-size: 12px;
 display: inline-block;
 padding: 20px;
 }
 
 .times {
 float: right;
+font-size: 12px;
 color:#F9F8F8;
 padding: 20px;
 }
@@ -114,9 +153,14 @@ padding: 20px;
 .social li {
     list-style-type: none;
     display: inline;
-    padding: 0 10px;
+    padding: 0 20px;
+    float: right;
 }
 
 .social li a {
     color:#F9F8F8;
+}
+
+.social i {
+    font-size: 15px;
 }
