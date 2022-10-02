@@ -119,7 +119,7 @@ h1, h2 {
 }
 
 .photo-container {
-    padding-top: 20px;
+    margin: 20px;
     width: 350px;
     height: 350px;
     float: right; 
@@ -128,9 +128,47 @@ h1, h2 {
 .studio-photo {
     width: 250px;
     height: 350px;
-    border-radius: 50%;
+    border-radius: 30%;
     margin:0 auto;
-    display: block;
+    clear: both;
+    display: inline-block;
+}
+
+/* Pricing*/
+
+.class-prices {
+    width: 250px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 15px;
+    display: inline-block;
+}
+
+.class-price-type {
+    padding: 25px;
+    background: #D3B9B4;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.price {
+    padding: 25px;
+    border-top: 1px solid #D3B9B4;
+    text-align: center;
+}
+
+.price-p-c {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.price-text {
+    font-size: 15px;
+    margin: 0 10;
 }
 
 /*footer*/
