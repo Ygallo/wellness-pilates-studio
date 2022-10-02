@@ -85,40 +85,52 @@ h1, h2 {
 
 /*Studio Main*/
 #studio-main {
-    height: 600px;
+    height: 1300px;
+}
+
+#studio-main h2 {
+    text-align: center;
+    text-transform: uppercase;
 }
 
 #what-left {
-    padding-top: 20px;
+    margin: 20px;
     width:50%;
     float: left;
-    background-color: antiquewhite;
-    min-height: 200px;
+    min-height: 350px;
+    text-align: justify;
 }
 
 #why-right {
-    padding-top: 20px;
+    margin: 20px;
     width:50%;
     float: right;
-    background-color: aquamarine;
-    min-height: 200px;
+    text-align: justify;
+    min-height: 350px;
 
 }
 
 #classes-left {
-    padding-top: 20px;
+    margin: 20px;
     width:50%;
     float: left;
-    background-color: burlywood;
-    min-height: 200px;
+    text-align: justify;
+    min-height: 350px;
+}
+
+.photo-container {
+    padding-top: 20px;
+    width: 350px;
+    height: 350px;
+    float: right; 
 }
 
 .studio-photo {
-    padding-top: 20px;
-    width:50%;
-    float: left;
-    background-color: red;
-    min-height: 200px;
+    width: 250px;
+    height: 350px;
+    border-radius: 50%;
+    margin:0 auto;
+    display: block;
 }
 
 /*footer*/
