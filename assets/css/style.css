@@ -93,29 +93,23 @@ h1, h2 {
     text-transform: uppercase;
 }
 
-#what-left {
+.studio-text {
     margin: 20px;
-    width:50%;
+    width:40%;
     float: left;
     min-height: 350px;
     text-align: justify;
+    padding: 0 10px;
 }
 
-#why-right {
+.studio-text-right {
     margin: 20px;
-    width:50%;
+    width:40%;
     float: right;
-    text-align: justify;
     min-height: 350px;
-
-}
-
-#classes-left {
-    margin: 20px;
-    width:50%;
-    float: left;
     text-align: justify;
-    min-height: 350px;
+    padding: 0 10px;
+
 }
 
 .photo-container {
@@ -171,6 +165,30 @@ h1, h2 {
     margin: 0 10;
 }
 
+
+/*Schedule*/
+
+table, th, td {
+    border: 1px solid #915E61;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+table {
+    width: 80%;
+    height: 600px;
+    margin: 20px;
+}
+
+th, td {
+    text-align: center;
+}
+
+th {
+    background-color: #D3B9B4;
+    font-weight: bold;
+}
+
 /*footer*/
 
 footer{
@@ -215,4 +233,32 @@ padding: 20px;
 
 .social i {
     font-size: 15px;
+}
+
+/*For medium screen sizes 950px wide and down*/
+@media screen and (max-width: 950px) {
+
+ #menu {
+    clear: left;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    line-height: 25px;
+ }
+ 
+ #studio-main {
+    width: 90%;
+    height: 2600px;
+    margin: 0 auto;
+ }
+
+ .studio-text, .studio-text-right {
+    width: inherit;
+ }
+
+
+.photo-container {
+    width: 90%;
+    margin: 0 auto;
+}
 }
