@@ -169,26 +169,41 @@ h1, h2 {
 /*Schedule*/
 
 table, th, td {
-    border: 1px solid #915E61;
+    border-bottom: 1px solid #915E61;
     border-collapse: collapse;
     border-radius: 10px;
 }
 
 table {
-    width: 80%;
-    height: 600px;
+    width: 90%;
+    height: 800px;
     margin: 20px;
 }
 
 th, td {
     text-align: center;
+    font-weight: bold;
 }
 
 th {
     background-color: #D3B9B4;
     font-weight: bold;
+    text-transform: uppercase;
+    padding:  5px 20px;
 }
 
+tr {
+    width: 20px;
+    height: 15px;
+}
+
+td:nth-child(even), th:nth-child(even) {
+    background-color: #f0e5e3;
+}
+
+.time {
+    font-size: 20px;
+}
 /*footer*/
 
 footer{
@@ -196,6 +211,7 @@ footer{
     min-height: 180px;
     margin:0;
     width: 100%;
+    float:left;
 }
 .address {   
 float: right;
