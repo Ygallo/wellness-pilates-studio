@@ -204,6 +204,15 @@ td:nth-child(even), th:nth-child(even) {
 .time {
     font-size: 20px;
 }
+
+/*Contact Form */
+ #contact-section {
+    width: 50%;
+    height: 600px;
+    padding: 5px;
+ }
+
+
 /*footer*/
 
 footer{
@@ -250,6 +259,7 @@ padding: 20px;
 .social i {
     font-size: 15px;
 }
+
 
 /*For medium screen sizes 950px wide and down*/
 @media screen and (max-width: 950px) {
