@@ -24,6 +24,7 @@ header {
 h1, h2 {
     font-family: noto serif display, sans-serif;
     letter-spacing: 3px;
+    font-weight: bolder;
 }
 
 #logo {
@@ -61,6 +62,7 @@ h1, h2 {
     letter-spacing: 3px;
     float: right;
     margin-top:25px;
+    font-weight: bolder;
 }
 
 #menu li {
@@ -245,12 +247,38 @@ td:nth-child(even), th:nth-child(even) {
     margin-bottom: 10px;
 }
 
+.contact-text {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#submit-bottom {
+    margin-top: 20px;
+    border-radius: 2px;
+    background-color: #3F5E81;
+    color:#f0e5e3;
+    padding: 15px 30px;
+    font-family: noto serif display, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+#submit-bottom:hover {
+    background-color: #915E61;
+}
+
 #map-section {
     width: 40%;
     height: 600px;
     float: left;
     padding: 0 10px;
     background-color: #D3B9B4;
+}
+
+#map {
+    width: 500px;
+    height: 500px;
+    margin-left: 30px;
 }
 
 /*footer*/
@@ -330,7 +358,7 @@ padding: 20px;
 
 /*For medium screen sizes 850px wide and down*/
 }
-@media (max-width: 850px) {
+@media (max-width: 800px) {
     #contact-container {
       flex-direction: column;
     }
