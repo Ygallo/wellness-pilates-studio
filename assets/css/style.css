@@ -206,12 +206,52 @@ td:nth-child(even), th:nth-child(even) {
 }
 
 /*Contact Form */
- #contact-section {
-    width: 50%;
+#contact-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+} 
+
+.contact-section {
+    flex:1;
     height: 600px;
-    padding: 5px;
+    float: left;
+    padding: 20px;
+    background-color: #f0e5e3;
+ }
+ .blue {
+    background-color: #3F5E81;
  }
 
+.text-input {
+    color: #915E61;
+    width: 90%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #3F5E81;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.text-area {
+    border: 1px solid #3F5E81;
+    width: 90%;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+#form-title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#map-section {
+    width: 40%;
+    height: 600px;
+    float: left;
+    padding: 0 10px;
+    background-color: #D3B9B4;
+}
 
 /*footer*/
 
@@ -287,4 +327,11 @@ padding: 20px;
     width: 90%;
     margin: 0 auto;
 }
+
+/*For medium screen sizes 850px wide and down*/
 }
+@media (max-width: 850px) {
+    #contact-container {
+      flex-direction: column;
+    }
+  }

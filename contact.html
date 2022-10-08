@@ -38,26 +38,30 @@
     <section id="hero-outer">
         <div id="hero-image"></div>
     </section>
-
-<section id="contact-section">
-    <form class="contact-form" action="https://formdump.codeinstitute.net/" method="POST">
-        <h2>Contact Us</h2>
+<section id="contact-container">
+<section class="contact-section">
+    <form action="https://formdump.codeinstitute.net/" method="POST">
+        <h2 id="form-title">Contact Us</h2>
         <label for="name">Name</label><br>
-        <input id="name" type="text" name="name" required><br>
+        <input id="name" class="text-input" type="text" name="name" required><br>
 
         <label for="surname">Surname</label><br>
-        <input id="surname" type="text" name="surname" required><br>
+        <input id="surname" class="text-input" type="text" name="surname" required><br>
         
         <label for="email">Email Address</label><br>
-        <input id="email" type="email" name="email_address" required><br>
+        <input id="email" class="text-input" type="email" name="email_address" required><br>
         <label for="message">Your Message here</label><br>
-        <textarea id="message" name="message" rows="10" cols="30"></textarea><br>
+        <textarea id="message" class="text-area" name="message" rows="10" cols="30"></textarea><br>
 
-        <input type="submit">
+        <input type="submit" id="submit">
     </form>
 </section>
 
-   
+<section class="contact-section blue" >
+</section>
+
+</section>
+
     <footer>
         <div class="address">
             <h4>Address</h4>
