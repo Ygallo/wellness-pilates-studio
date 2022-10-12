@@ -34,25 +34,25 @@ h1, h2 {
     margin: 5px 0 0 20px;
 }
 
-/*
-#logo {
-    height: ;
-    float: left;
-}
-*/
-
 /* hero image*/
 
 #hero-image {
-    height: 600px;
+    height: auto;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat;
+    background: no-repeat center center;
     background-size: cover;
 }
 #hero-outer {
-    height: 600px;
+    height: auto;
     width: 100%;
     overflow: hidden;
+}
+
+.hero-other {
+    height: 600px;
+    width: 100%;
+    background: no-repeat;
+    background-size: cover;
 }
 
 /*navigation*/
