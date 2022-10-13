@@ -16,7 +16,7 @@ body {
 header {
     position: fixed;
     top:0;
-    background-color: white;
+    background-color: #f0e5e3;
     width: 100%;
     height: 70px;
 }
@@ -49,7 +49,7 @@ h1, h2 {
 }
 
 .hero-other {
-    height: 600px;
+    height: auto;
     width: 100%;
     background: no-repeat;
     background-size: cover;
@@ -323,9 +323,12 @@ padding: 20px;
     font-size: 15px;
 }
 
-
 /*For medium screen sizes 950px wide and down*/
 @media screen and (max-width: 950px) {
+
+    header {
+        height: 120px;
+    }
 
  #menu {
     clear: left;
@@ -337,7 +340,6 @@ padding: 20px;
  
  #studio-main {
     width: 90%;
-    height: 2600px;
     margin: 0 auto;
  }
 
@@ -345,15 +347,20 @@ padding: 20px;
     width: inherit;
  }
 
-
 .photo-container {
     width: 90%;
     margin: 0 auto;
 }
 
-/*For medium screen sizes 850px wide and down*/
 }
-@media (max-width: 800px) {
+
+/*For medium screen sizes 800px wide and down*/
+@media (max-width: 820px) {
+
+    #hero-image {
+        margin-top: 130px;
+    }
+
     #contact-container {
       flex-direction: column;
     }
@@ -365,4 +372,44 @@ padding: 20px;
         align-content: center;
         flex-wrap: nowrap;
     }
+
+    .studio-photo{
+        margin: 20px 0%;
+    }
   }
+
+  /*For small screen sizes 500px wide and down*/
+
+  @media (max-width: 500px) {
+  header {
+    background-color: #f0e5e3;
+    height: auto;
+  }
+    #menu li {
+    text-align: left;
+    float: none;
+    display: block;
+    margin-left: 20px;
+    margin-bottom: 5px;
+      }
+    
+    #hero-image {
+        display:none;
+    }
+    #logo{
+        font-size: 145%;
+    }
+
+    #studio-main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: nowrap;
+        margin-top: 200px;
+    }
+
+    .studio-photo{
+        margin: 20px 0%;
+    }
+}
