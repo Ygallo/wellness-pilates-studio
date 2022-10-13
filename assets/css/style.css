@@ -126,6 +126,11 @@ h1, h2 {
 }
 
 /* Pricing*/
+#table-container {
+    overflow-x:auto;
+    text-align: center;
+}
+
 #price-container {
     text-align: center;
 
@@ -168,29 +173,40 @@ h1, h2 {
 
 
 /*Schedule*/
-
-table, th, td {
-    border-bottom: 1px solid #915E61;
-    border-collapse: collapse;
-    border-radius: 10px;
+#timetable-text {
+    text-align: center;
+    text-transform: uppercase;
 }
 
+table, th, td {
+    border: 1px solid #915E61;
+    border-collapse: collapse;
+    }
+
 table {
-    width: 90%;
-    height: 800px;
+    width: 100%;
+    height: auto;
     margin: 20px;
+    white-space: normal;
 }
 
 th, td {
     text-align: center;
     font-weight: bold;
-}
+    font-size: small;
+    vertical-align: top;
+    }
 
 th {
     background-color: #D3B9B4;
     font-weight: bold;
     text-transform: uppercase;
-    padding:  5px 20px;
+    padding:  5px;
+    vertical-align: center;
+}
+
+td {
+    padding: 10px 0;
 }
 
 tr {
@@ -412,4 +428,9 @@ padding: 20px;
     .studio-photo{
         margin: 20px 0%;
     }
-}
+
+    #timetable-text, #contact-container {
+        margin-top: 60px;
+    }
+
+    }
