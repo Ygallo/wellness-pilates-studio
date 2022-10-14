@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: open sans, sans-serif;
+    font-family: "open sans", sans-serif;
     color: #3F5E81;
 }
 
@@ -22,7 +22,7 @@ header {
 }
 
 h1, h2 {
-    font-family: noto serif display, sans-serif;
+    font-family: "noto serif display", sans-serif;
     letter-spacing: 3px;
     font-weight: bolder;
 }
@@ -133,9 +133,12 @@ h1, h2 {
 
 #price-container {
     text-align: center;
-
 }
 
+.price-header {
+    font-weight: 1000;
+    color: #224872;
+}
 .class-prices {
     width: 250px;
     border-radius: 25px;
@@ -152,6 +155,7 @@ h1, h2 {
     background: #D3B9B4;
     text-align: center;
     text-transform: uppercase;
+    font-weight: bolder;
 }
 
 .price {
@@ -168,7 +172,7 @@ h1, h2 {
 
 .price-text {
     font-size: 15px;
-    margin: 0 10;
+    margin: 0 10px;
 }
 
 
@@ -199,6 +203,7 @@ th, td {
 
 th {
     background-color: #D3B9B4;
+    color: #224872;
     font-weight: bold;
     text-transform: uppercase;
     padding:  5px;
@@ -275,7 +280,7 @@ td:nth-child(even), th:nth-child(even) {
     background-color: #f0e5e3;
     color:#3F5E81;
     padding: 15px 30px;
-    font-family: noto serif display, sans-serif;
+    font-family: "noto serif display", sans-serif;
     font-weight: bold;
     letter-spacing: 1.5px;
 }
