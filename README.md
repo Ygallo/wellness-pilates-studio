@@ -63,6 +63,57 @@ Screen shot of contact
 - Another feature to implement, would be a booking system for the user to book their own classes as they suit them. 
 
 ## Testing
+- I have tested this webpage using the devtools devise tools bar to make sure it is responsive and functions on different screen sizes.
+- I have make sure that the Logo, Home page, Pricing, Schedule and Contact are readable, responsive an easy to undestand.
+
+## Bugs
+- When the project was deployed I discovered that none of th pictures where working. After examing the code I discover I used and absolute path to the images. Once **../** was removed from the code the problem was fixed.
+
+##  Validator Testing
+**HTML**
+
+No errors were returned when passing through the official (W3C validator)[https://validator.w3.org/]
+
+**CSS**
+
+No errors were found when passing through the official (Jigsaw) validator
+
+**Accessibility**
+
+I can confirm that the fonts chosen are easy to read, I had to darken to color of some sections titles to improve readability once I run it through Lighthouse in Devtools.
+
+## Unfixed Bugs
+
+Currently there are none unfixed bugs. 
+
+## Deployment
+
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+1. In GitHub select the repository I need to deploy, navigate to the Settings tab.
+2. In the left-hand navigation section select Pages
+3. From the source section drop-down menu, select the Main Branch, and click SAVE. 
+4. After several minutes the website is live and will be automatically refreshed with each Git push command.
+
+The link to the live site is:
+
+## Credits
+
+- The code to make the header and nav bar was taken from CI Love Running Project
+
+## Content
+- The text for the Home page was taken from Wikipedia Article “Pilates”.
+- The instruction for the pricing table where take form this Youtube Tutorial: https://www.youtube.com/watch?v=jfh0ZJFhj2w
+- Fonts were taken from Google fonts.
+- The icons in the footer were taken from Font Awesome
+ 
+## Media
+All the stock images were sourced from the following open source sites:
+- Pexels
+- Pixabay
+ 
+
+
 
 
 
