@@ -2,6 +2,8 @@
 
 Wellness Pilates Studio is a site for pilates lovers who are based in Dublin,Ireland, and are looking to start practising pilates or are already members of the studio and wish to take classes on a regular basis. The site has the all the information on prices, class times and location for members to now how, where and when they can attend the studio. 
 
+![](assets/readme-assets/sc-responsive-main.png)
+
 ## Features
 
 The site implements very basic features of a static website.
@@ -14,20 +16,20 @@ The site implements very basic features of a static website.
 - The navigation bar is consistent througout all pages.
 - The navigation bar will transform into a vertical nav in smaller phone devices via media query.
 
-nav bar image
+![](assets/readme-assets/sc-header-nav.png)
 
 #### **The landing page image**
 - The landing includes an static photograph of a woman practising pilates.
 - The picture will change in each of the pages of the website.
 
-image of main picture
+![](assets/readme-assets/sc-hero-image.png)
 
 #### **Studio Main**
 - The studio main section will allow the user to learn what is pilates, how can the benefit from practising on a regular basis.
 - The user will learn about the flexibility this type of exercise allows and the excellent instructors available in the studio willing to help everyone they teach. 
 - The user will see the variety of classes at their hand. This should encourage the user to consider pilates as their form of exercise.
 
-shot of studio main
+![](assets/readme-assets/sc-main-section.png)
 
 #### **The Footer**
 - The footer sections has the address and opening times of the Studio.
@@ -35,20 +37,20 @@ shot of studio main
 - The footer is valuable to the user as it allows them to know where, and when they can attend the Studio and also to keep connected via social media.
 - The footer is consistent througout all pages.
 
-screen shot of footer
+![](assets/readme-assets/sc-footer.png)
 
 #### **Pricing Section**
 - This section will allow the user to see the exact prices on individual clases either on Mat or Reformer, and the prices and convenience of buying blocks of classes (5 blocks and 10 blocks).  
 - This section will be updated as new blocks of clases and combination of mat and reformer comes available.
 
-Screen shot of section
+![](assets/readme-assets/sc-pricing.png)
 
 #### **The Schedule Section**
 - This section will has a table listing with  all the classes types and times available for the user.
 - The table has a vertical zebra stripes  styling to allow an easier differentiation between the days of the week.
 - The times section will be updated regularly to keep the user up to date on the classes availability.
  
-Screen shot of section
+![](assets/readme-assets/sc-schedule.png)
 
 #### **Contact Section** 
 - This page will allow the user to get in contact with the Wellness Pilates Studio. The user will be asked to submit their full name and email address and message.
@@ -56,7 +58,7 @@ Screen shot of section
 - Currently, submitting the form will take the user to the form dump page provided by Code Institute.
 - There is a google map on this page, next to the contact section where it shows the address location of the Wellness Pilates Studio.
 
-Screen shot of contact
+![](assets/readme-assets/sc-contact.png)
 
 ## Features Left to Implement
 - In the future a shop online to allow the user to purchase the classes directly on the website will be added.
@@ -72,15 +74,15 @@ Screen shot of contact
 ##  Validator Testing
 **HTML**
 
-No errors were returned when passing through the official (W3C validator)[https://validator.w3.org/]
+No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
 
 **CSS**
 
-No errors were found when passing through the official (Jigsaw) validator
+No errors were found when passing through the official [CSS validator](https://jigsaw.w3.org/css-validator/validator.html.en)
 
 **Accessibility**
 
-I can confirm that the fonts chosen are easy to read, I had to darken to color of some sections titles to improve readability once I run it through Lighthouse in Devtools.
+I can confirm that the fonts chosen are easy to read, I had to darken to color of some section titles to improve readability once I run it through Lighthouse in Devtools.
 
 ## Unfixed Bugs
 
@@ -95,7 +97,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 3. From the source section drop-down menu, select the Main Branch, and click SAVE. 
 4. After several minutes the website is live and will be automatically refreshed with each Git push command.
 
-The link to the live site is:
+The link to the live site is: https://ygallo.github.io/wellness-pilates-studio/index.html
 
 ## Credits
 
@@ -109,8 +111,8 @@ The link to the live site is:
  
 ## Media
 All the stock images were sourced from the following open source sites:
-- Pexels
-- Pixabay
+- [Pexels](https://www.pexels.com/)
+- [Pixabay](https://pixabay.com/)
  
 
 
