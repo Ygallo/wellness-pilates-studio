@@ -11,18 +11,19 @@ Wellness Pilates Studio is a site for pilates lovers who are based in Dublin,Ire
 **Color Palette**:
 ![](assets/readme-assets/pilates-color-palette.png)
 
-The colors of the palette are user all over the site.  The logo and footer are in #915E61, the texts are in the blue shades #3F5E81 and #224872. The darker blue color was added at the end, for better accessibility. The ligther pink colors #f0e5e3 and #D3B9B4, where use for backgrounds throught the different pages. 
+The colors of the palette are user all over the site.  The logo and footer are in #915E61, the texts are in the blue shades #3F5E81 and #224872. The darker blue color was added at the end, for better accessibility. The ligther pink colors #f0e5e3 and #D3B9B4, were use for backgrounds throught the different pages. 
 
 
 ## Features
 
-The site implements very basic features of a static website.
+The site implements standart HTML features of a static website.
 
 ### Existing Features
 #### **Navigation Bar**
 
 - Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home page, Pricing, Schedule and Contact page and is identical in each page to allow for easy navigation.
 - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+- It also has a hover and active property to allow the user to k now which page are they on.
 - The navigation bar is consistent througout all pages.
 - The navigation bar will transform into a vertical nav in smaller phone devices via media query.
 
@@ -51,7 +52,7 @@ The site implements very basic features of a static website.
 ![](assets/readme-assets/sc-footer.png)
 
 #### **Pricing Section**
-- This section will allow the user to see the exact prices on individual clases either on Mat or Reformer, and the prices and convenience of buying blocks of classes (5 blocks and 10 blocks).  
+- This section will allow the user to see the exact prices on individual classes either on Mat or Reformer, and the prices and convenience of buying blocks of classes (5 blocks and 10 blocks).  
 - This section will be updated as new blocks of clases and combination of mat and reformer comes available.
 
 ![](assets/readme-assets/sc-pricing.png)
@@ -83,9 +84,9 @@ The site implements very basic features of a static website.
 ### **Manual Testing**
 
 - **Logo**, when clicked will open Home page.
-- **Navbar**, when clicked the respective page will open, and will change color on hoover over the words.
+- **Navbar**, when clicked the respective page will open, and will change color on hover over the words. The page that is active will stay on a different color.
 - **Social link icons** when clicked, the link icons open relevant websites in a new tab.
-- **Contact form button**, once the form is filled, and clicked submitt, CI form dump page opens and displays form contents. Button also changes color on hoover. 
+- **Contact form button**, once the form is filled, and clicked submitt, CI form dump page opens and displays form contents. Button also changes color on hover. 
 -**Required form fields**, form will not submit if Name, Surname and Email fields are not completed.  
 
 
