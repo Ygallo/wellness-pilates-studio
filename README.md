@@ -92,6 +92,7 @@ The site implements standart HTML features of a static website.
 
 ## Bugs
 - There was a problem with the nav on smaller screens, I used a tutorial from [W3schools.com](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_responsive_header) to solve the problem and make it vertical on smaller screens.
+- I had trouble with the main page content and images to align and then become also responsive, I was able to solve this by using the Flexbox layout from [W3schools.com](https://www.w3schools.com/css/css3_flexbox.asp)
 - When the project was deployed I discovered that none of th pictures where working. After examing the code I discover I used and absolute path to the images. Once **../** was removed from the code the problem was fixed.
 
 ##  Validator Testing
