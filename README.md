@@ -27,6 +27,7 @@ The site implements very basic features of a static website.
 - The navigation bar will transform into a vertical nav in smaller phone devices via media query.
 
 ![](assets/readme-assets/sc-header-nav.png)
+![](assets/readme-assets/sc-small-menu.png)
 
 #### **The landing page image**
 - The landing includes an static photograph of a woman practising pilates.
@@ -78,6 +79,15 @@ The site implements very basic features of a static website.
 - I have tested that this website works in Chrome, Firefox and Microsoft Edge.
 - I have tested this webpage using the devtools devise tools bar to make sure it is responsive and functions on different screen sizes.
 - I have make sure that the Logo, Home page, Pricing, Schedule and Contact are readable, responsive an easy to undestand.
+
+### **Manual Testing**
+
+- **Logo**, when clicked will open Home page.
+- **Navbar**, when clicked the respective page will open, and will change color on hoover over the words.
+- **Social link icons** when clicked, the link icons open relevant websites in a new tab.
+- **Contact form button**, once the form is filled, and clicked submitt, CI form dump page opens and displays form contents. Button also changes color on hoover. 
+-**Required form fields**, form will not submit if Name, Surname and Email fields are not completed.  
+
 
 ## Bugs
 - There was a problem with the nav on smaller screens, I used a tutorial from [W3schools.com](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_responsive_header) to solve the problem and make it vertical on smaller screens.
