@@ -280,7 +280,7 @@ td:nth-child(even), th:nth-child(even) {
     background-color: #f0e5e3;
     color:#3F5E81;
     padding: 15px 30px;
-    font-family: "noto serif display", sans-serif;
+    font-family: "open sans", sans-serif;
     font-weight: bold;
     letter-spacing: 1.5px;
 }

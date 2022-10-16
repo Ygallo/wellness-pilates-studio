@@ -4,6 +4,16 @@ Wellness Pilates Studio is a site for pilates lovers who are based in Dublin,Ire
 
 ![](assets/readme-assets/sc-responsive-main.png)
 
+## Color Scheme and Typography
+
+**Fonts**: the two fonts chosen for this project where **noto serif display** for the headings as it has an aestetic appearance for the heading and logo. And **open sans** for the main paragraphs and text as it has a neutral font and easy to read. 
+
+**Color Palette**:
+![](assets/readme-assets/pilates-color-palette.png)
+
+The colors of the palette are user all over the site.  The logo and footer are in #915E61, the texts are in the blue shades #3F5E81 and #224872. The darker blue color was added at the end, for better accessibility. The ligther pink colors #f0e5e3 and #D3B9B4, where use for backgrounds throught the different pages. 
+
+
 ## Features
 
 The site implements very basic features of a static website.
@@ -65,10 +75,12 @@ The site implements very basic features of a static website.
 - Another feature to implement, would be a booking system for the user to book their own classes as they suit them. 
 
 ## Testing
+- I have tested that this website works in Chrome, Firefox and Microsoft Edge.
 - I have tested this webpage using the devtools devise tools bar to make sure it is responsive and functions on different screen sizes.
 - I have make sure that the Logo, Home page, Pricing, Schedule and Contact are readable, responsive an easy to undestand.
 
 ## Bugs
+- There was a problem with the nav on smaller screens, I used a tutorial from [W3schools.com](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_responsive_header) to solve the problem and make it vertical on smaller screens.
 - When the project was deployed I discovered that none of th pictures where working. After examing the code I discover I used and absolute path to the images. Once **../** was removed from the code the problem was fixed.
 
 ##  Validator Testing
@@ -83,6 +95,8 @@ No errors were found when passing through the official [CSS validator](https://j
 **Accessibility**
 
 I can confirm that the fonts chosen are easy to read, I had to darken to color of some section titles to improve readability once I run it through Lighthouse in Devtools.
+
+![](assets/readme-assets/sc-lighthouse.png)
 
 ## Unfixed Bugs
 
@@ -101,13 +115,16 @@ The link to the live site is: https://ygallo.github.io/wellness-pilates-studio/i
 
 ## Credits
 
-- The code to make the header and nav bar was taken from CI Love Running Project
+- The code to make the header and nav bar was taken from CI Love Running Project. 
+- I would like to thanks my Mentor, Andre Aquilina who help me along the way and spotted the last detail to tackle before submitting.
+- My husband who pointed helpful tutorial for me to read and learn to solve my struggles and provided feedback on my project.
+- My study group and we kept pushing each other and share helpful information.
 
 ## Content
 - The text for the Home page was taken from Wikipedia Article “Pilates”.
 - The instruction for the pricing table where take form this Youtube Tutorial: https://www.youtube.com/watch?v=jfh0ZJFhj2w
-- Fonts were taken from Google fonts.
-- The icons in the footer were taken from Font Awesome
+- Fonts were taken from [Google fonts](https://fonts.google.com/).
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
  
 ## Media
 All the stock images were sourced from the following open source sites:
