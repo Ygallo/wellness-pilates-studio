@@ -127,8 +127,8 @@ The link to the live site is: https://ygallo.github.io/wellness-pilates-studio/i
 
 - The code to make the header and nav bar was taken from CI Love Running Project. 
 - I would like to thanks my Mentor, Andre Aquilina who help me along the way and spotted the last detail to tackle before submitting.
-- My husband who pointed helpful tutorial for me to read and learn to solve my struggles and provided feedback on my project.
-- My study group and we kept pushing each other and share helpful information.
+- My husband who pointed helpful tutorials for me to read, and help me solve my struggles when stuck, and provided feedback on my project.
+- My study group as we kept pushing each other and share helpful information.
 
 ## Content
 - The text for the Home page was taken from Wikipedia Article “Pilates”.
